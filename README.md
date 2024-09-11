@@ -66,3 +66,10 @@ npm i @pnp/core @pnp/nodejs @pnp/sp @azure/msal-node
 ```
 npm i -D @types/node
 ```
+
+## References
+- https://www.youtube.com/watch?v=TFeI-yMfg0w&list=LL&index=23
+- https://github.com/PiaSys/Conferences-Samples/tree/master/nodejs-pnpjs
+- https://www.youtube.com/watch?v=BWUi6BS9T5Y&list=LL&index=2
+- https://github.com/TomDoesTech/REST-API-Tutorial-Updated
+- https://typescript.tv/hands-on/effortless-nodemon-setup-with-typescript-and-esm/
