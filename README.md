@@ -44,4 +44,8 @@ npm i -D ts-node
 npm run start:dev
 ```
 
-
+## Add dotenv, pnpjs and msal-node
+```
+npm i dotenv
+npm i @pnp/core@3.x @pnp/nodejs@3.x @pnp/sp@3.x
+```

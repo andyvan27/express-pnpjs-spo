@@ -1,11 +1,17 @@
-import express, { NextFunction, Request, Response } from 'express';
-import usersRouters from './routes/users';
+import * as dotenv from 'dotenv';
+import express from 'express';
+import usersRoutes from './routes/users.routes';
+import libraryRoutes from './routes/library.routes';
+
+dotenv.config();
 
 const app = express();
 
-app.use('/api/v1/users', usersRouters);
+app.use(express.json());
 
-const PORT = 3000;
-app.listen(PORT, () => {
-  console.log(`Running on port ${PORT}`);
+app.use('/api/v1/users', usersRoutes);
+app.use('/api/v1/library', libraryRoutes);
+
+app.listen(process.env.PORT || 3001, () => {
+  console.log(`Running on http://localhost:${process.env.PORT}`);
 });
