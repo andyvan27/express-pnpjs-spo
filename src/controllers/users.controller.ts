@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { User } from "../dtos/User";
-import { createUser } from "../services/users.service";
+import { createUser } from "../services/users.service.js";
 
 export function handleGetUsers(request: Request, response: Response) {
   response.send([]);

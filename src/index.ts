@@ -1,7 +1,7 @@
 import * as dotenv from 'dotenv';
 import express from 'express';
-import usersRoutes from './routes/users.routes';
-import libraryRoutes from './routes/library.routes';
+import usersRoutes from './routes/users.routes.js';
+import libraryRoutes from './routes/library.routes.js';
 
 dotenv.config();
 
